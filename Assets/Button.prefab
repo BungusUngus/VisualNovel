@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5540467690466327916}
   - component: {fileID: 3145291506055216229}
   - component: {fileID: 350075065003722688}
+  - component: {fileID: 7926907322535222506}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -120,7 +121,35 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3145291506055216229}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7926907322535222506}
+        m_TargetAssemblyTypeName: ButtonEvent, Assembly-CSharp
+        m_MethodName: Event
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7926907322535222506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123613802257091598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c739eb7d36b87e48b25d5d1d8ed9ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonDisplayText: {fileID: 0}
+  pageManager: {fileID: 0}
+  action: 
+  key: 
 --- !u!1 &3455387931620985547
 GameObject:
   m_ObjectHideFlags: 0

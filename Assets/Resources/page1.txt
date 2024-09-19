@@ -1,0 +1,8 @@
+You turn left.
+
+there is a silhouette running from your peripheral vision at the end of a long dimly lit corridor, steam is erupting out of cracked vents in one of the ceiling panels.
+
+You can continue down the hallway or turn back.
+~|0|Go back_goto|3|Unlock doors
+
+
